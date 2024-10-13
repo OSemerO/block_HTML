@@ -4,9 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OkeyPost</title>
+    <!-- <link rel="stylesheet" href="/week_3p3/styles.css" /> -->
   </head>
+
+  <!-- Я не очень понимаю, почему у меня не встает список, хотя я применила display flex. Кот, подскажи, пожалуйста, что не так. -->
+
   <body>
-    <header style="background-color: white; height: 120px; width: 1920px">
+    <header
+      style="
+        background-color: white;
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
       <div>
         <img
           style="margin-top: 36px; margin-left: 259px"
@@ -16,7 +28,6 @@
         <nav>
           <ul
             style="
-              text-decoration: none;
               display: flex;
               margin-left: 10px;
               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
@@ -34,7 +45,7 @@
             <li><a href="#">Магазины</a></li>
           </ul>
         </nav>
-        <div style="width: 73px; height: 28px; display: flex">
+        <div style="width: 73px; height: 28px">
           <img
             style="width: 14px; height: 14px"
             src="/week_3p3/images/User icon.png"
@@ -73,5 +84,34 @@
         </button>
       </div>
     </header>
+    <main>
+      <!-- <div
+        style="
+          background: linear-gradient(#5b52a3, #40b8ea);
+          width: 1800px;
+          height: 680px;
+          border-radius: 36px;
+        "
+      >
+        <h1
+          style="
+            padding-left: 260px;
+            padding-top: 216px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+            font-weight: 800;
+            font-size: 72px;
+          "
+        >
+          Доставка товаров из Великобритании в Россию
+        </h1>
+        <img
+          style="width: 573px; height: 571px"
+          src="/week_3p3/images/planet.png"
+          alt="planet-delivery"
+        />
+      </div> -->
+    </main>
   </body>
 </html>
